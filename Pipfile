@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+httpx = ">=0.25.0"
+pydantic = ">=2.5.0"
+pydantic-settings = ">=2.1.0"
+python-dotenv = ">=1.0.0"
+uvicorn = {extras = ["standard"], version = ">=0.24.0"}
+fastapi = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
